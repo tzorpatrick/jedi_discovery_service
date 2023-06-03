@@ -1,4 +1,4 @@
-package com.spring_boot_jedi_universe.microservices.jedi_discovery_service.acceptance_test.page;
+package com.spring_boot_jedi_universe.microservices.jedi_discovery_service.acceptance_test;
 
 import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
