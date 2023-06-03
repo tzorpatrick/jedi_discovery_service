@@ -1,0 +1,23 @@
+
+
+# to disable auto-discovery of the service
+eureka:
+  eureka:
+    instance:
+      prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
+  dashboard:
+    path: /dashboard
+  instance:
+    hostname: localhost
+
+
+spring:
+  profiles:
+    active: dev
+
+
